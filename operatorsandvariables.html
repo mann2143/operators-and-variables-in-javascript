@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators and Variables</title>
+</head>
+<body>
+    <script>
+    var a = 10
+    var b = 20
+    var c = 30
+    var d = "Hello"
+    var e = a+d
+    var result
+
+    
+        function addition(){
+            result = a+b
+            alert("a + b =" + result);
+            
+        }
+        function subtraction(){
+            result = b-c
+            alert("b - c =" + result);
+        }
+        function multiplication() {
+            result = a*c
+            alert("a * c =" + result);
+
+
+        }
+        function division() {
+            result = c/a
+            alert("c / a =" + result);
+
+        }
+
+        function addition2(){
+            alert("a + d =" + e);
+        }
+
+    </script>
+            <input type ="button" onclick = "addition()" value = "addition"></input>
+            <input type ="button" onclick = "subtraction()" value = "subtraction"></input>
+            <input type ="button" onclick = "multiplication()" value = "multiplication"></input>
+            <input type ="button" onclick = "division()" value = "division"></input>
+            <input type ="button" onclick = "addition2()" value = "addition2"></input>
+
+</body>
+</html>
